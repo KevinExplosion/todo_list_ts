@@ -7,7 +7,43 @@
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
   </head>
-  <body>
+  <body class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>To Do List #2039812309870</h1>
+          <form id='add-task' class="form-group">
+            <select name="assignee" id="assignee" class="form-control">
+            </select><br>
 
+            <textarea id="description" rows="10" cols="50" class="form-control">
+              Enter a description for your task
+            </textarea><br>
+
+              <select name="priority" id="priority" class="form-control">
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select><br>
+
+          <button class="btn" type="submit">Add new Task</button><br>
+        </div>
+      <div class="col-md-6">
+        <div id="#person"></div>
+        <div id="#task"></div>
+
+        <div id="personInfo"></div>
+        <div id="taskInfo"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class='col-md-6'>
+        <form id="search">
+          <input type="text">
+          <button class="btn" id="find-assignee" type=submit>Search</button>
+        </form>
+      </div>
+      <div id='tasks' class='col-md-6'>
+      </div>
+    </div>
   </body>
 </html>

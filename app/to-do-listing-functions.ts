@@ -9,4 +9,15 @@ module ToDoList {
     }
     return descriptions;
   }
+
+
+  export var FindPerson = function(name : string, peopleList: IPerson{}) {
+    var assignee: IPerson;
+    for(var person of peopleList) {
+      if(person.name === name) {
+        assignee = person;
+      }
+    }
+    return assignee;
+  };
 }
