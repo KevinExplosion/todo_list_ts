@@ -1,0 +1,22 @@
+{
+  "name": "to-do-list",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "kevin mattison and david remington"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

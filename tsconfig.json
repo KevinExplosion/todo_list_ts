@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "out": "./build/js/app.js",
+        "sourceMap": true
+    },
+    "files": [
+        "./app/tasks.ts"
+    ]
+}
